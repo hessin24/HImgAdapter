@@ -9,12 +9,12 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import java.util.ArrayList;
 
-public class HImgAdapter extends BaseAdapter {
+public class HSimpleImgAdapter extends BaseAdapter {
 
     private LayoutInflater inflater;
     private final ArrayList<Bitmap> images;
     private final RequiredIDs iDs;
-    public HImgAdapter(Context context, RequiredIDs iDs, ArrayList<Bitmap> images){
+    public HSimpleImgAdapter(Context context, RequiredIDs iDs, ArrayList<Bitmap> images){
         this.inflater = LayoutInflater.from(context);
         this.images = images;
         this.iDs = iDs;
