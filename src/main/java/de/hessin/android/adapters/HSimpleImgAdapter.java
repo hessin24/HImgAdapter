@@ -11,14 +11,13 @@ import java.util.ArrayList;
 
 public class HSimpleImgAdapter extends BaseAdapter {
 
-    private LayoutInflater inflater;
+    private final LayoutInflater inflater;
     private final ArrayList<Bitmap> images;
     private final RequiredIDs iDs;
     public HSimpleImgAdapter(Context context, RequiredIDs iDs, ArrayList<Bitmap> images){
         this.inflater = LayoutInflater.from(context);
         this.images = images;
         this.iDs = iDs;
-
     }
     @Override
     public int getCount() {
