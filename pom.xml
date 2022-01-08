@@ -12,7 +12,7 @@
     </developer>
 </developers>
     <groupId>com.github.hessin24</groupId>
-    <artifactId>HImgAdapter</artifactId>
+    <artifactId>HSimpleImgAdapter</artifactId>
     <version>1.0.0</version>
     <licenses>
         <license>
